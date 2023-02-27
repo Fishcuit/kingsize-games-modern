@@ -31,6 +31,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-fill-color: transparent;
 }
 
 .text-gradient1 {
@@ -46,7 +47,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-
+  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -155,12 +156,12 @@
 }
 
 .animate-left {
-
+  @apply transform -translate-x-full opacity-0;
   animation: slide-in-left 0.5s ease-out forwards;
 }
 
 .animate-right {
-
+  @apply transform translate-x-full opacity-0;
   animation: slide-in-right 0.5s ease-out forwards;
 }
 
@@ -429,7 +430,8 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-
+  -webkit-appearance: button;
+  /* 1 */
   background-color: transparent;
   /* 2 */
   background-image: none;
@@ -475,7 +477,8 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-
+  -webkit-appearance: textfield;
+  /* 1 */
   outline-offset: -2px;
   /* 2 */
 }
@@ -613,7 +616,8 @@ embed,
 object {
   display: block;
   /* 1 */
-
+  vertical-align: middle;
+  /* 2 */
 }
 
 /*

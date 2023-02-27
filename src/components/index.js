@@ -11,7 +11,6 @@ import Hero from "./Hero";
 import GetStarted from "./GetStarted";
 import GameCard from "./GameCard";
 import GameDetail from "./GameDetail";
-import Scrolll from "./Scrolll";
 
 export {
   Navbar,
@@ -26,7 +25,6 @@ export {
   Hero,
   GetStarted,
   GameCard,
-  Scrolll,
   GameDetail,
   
 };
