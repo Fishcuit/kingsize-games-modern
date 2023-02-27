@@ -8,7 +8,7 @@ import { GameDetail } from "./components";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/kingsize-games-modern">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/games/:id" element={<GameDetail />} />
