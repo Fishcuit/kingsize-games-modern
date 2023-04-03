@@ -1,4 +1,4 @@
-import { piqum_classic, BaseGame_Logo_Stacked, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, WOS, WOS1, WOS2, WOS3, piqum3  } from "../assets";
+import { piqum_classic, BaseGame_Logo_Stacked, facebook, instagram, linkedin, twitter, send, shield, star, WOS, WOS1, WOS2, WOS3, piqum3, SegaSammy, Konami, Ezugi, Fincore, Ingenuity1  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,13 +6,14 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "game-studio",
-    title: "Game Studio",
-  },
-  {
     id: "products",
     title: "Products",
   },
+  {
+    id: "game-studio",
+    title: "Game Studio",
+  },
+  
   {
     id: "services",
     title: "Services",
@@ -27,95 +28,7 @@ export const navLinks = [
   },
 ];
 
-export const features = [
-  {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
 
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partners",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
-];
 
 export const socialMedia = [
   {
@@ -136,32 +49,36 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/kingsize-games-inc./about/",
   },
 ];
 
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: SegaSammy,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: Konami,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: Ezugi,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: Fincore,
+  },
+  {
+    id: "client-5",
+    logo: Ingenuity1,
   },
 ];
 
 export const featuredGamesData = [
   {
-    id: 1,
+    id: "sorc",
     title: 'Ways Of The Sorceress',
     imageSrc: BaseGame_Logo_Stacked,
     imageSrc2: WOS1,
@@ -170,22 +87,22 @@ export const featuredGamesData = [
     bg: 'bg-gradient-to-br from-blue-900 via-blue-400 to-cyan-200',
     description: 'Enter a mystical world of ancient magic and spellbinding payouts in "Ways of the Sorceress" - the latest addition to our mobile casino game collection. With stunning graphics and enchanting sound effects, this game immerses you in a world of sorcery, where you will encounter magical creatures and ancient relics that hold the key to untold riches. ',
     features: ['Mystical world of ancient magic', 'Spellbinding payouts', 'Stunning graphics', 'Enchanting sound effects', 'Encounter magical creatures', 'Find ancient relics'],
-    link: "https://tailwindcss.com/docs/align-items#basic-usage"
+    link: "https://r7contentstage.rubyseven.com/contentmachines/index.html?machineName=WaysOfTheSorceress&coins=100000000000&userID=RS_100&layout=iPhone5&orientation=Portrait&dualOrientation=true&volume=JTdCJTIybXVzaWMlMjIlM0ExJTJDJTIyZWZmZWN0JTIyJTNBMSUyQyUyMnZvJTIyJTNBMSU3RA==&machineData=JTdCJTIybWFjaGluZUFuYWx5dGljc0lEJTIyJTNBJTIyJTIyJTJDJTIyY2hlYXQlMjIlM0ExJTJDJTIyZGVmYXVsdEJldCUyMiUzQTEwMDAlMkMlMjJtYXhCZXRBbW91bnQlMjIlM0EzMDAwMDAwJTJDJTIyYmV0U3RydWN0dXJlJTIyJTNBJTVCMTAwMCUyQzIwMDAlMkM0MDAwJTJDODAwMCUyQzE2MDAwJTJDNjI1MDAlMkM2NDAwMCUyQzIwMDAwMCUyQzMwMDAwMCUyQzQyNTAwMCUyQzUwMDAwMCUyQzgwMDAwMCUyQzE1MDAwMDAlMkMzMDAwMDAwJTVEJTdE&machineType=SLOTS&hashValue=7a6682338725ee059a4eaf7bebb18bbd&machineHashValue=9469ed3058054479a99514ff4436a485&casino=MysticSlots&timeStamp=1671034033122&platform=canvas"
   },
   {
-    id: 2,
+    id: "piqum",
     title: 'PiQum Series',
     imageSrc: piqum_classic,
     imageSrc2: piqum3,
     bg: 'bg-gradient-to-br from-green-900 via-green-500 to-green-300',
     description: 'Enter a mystical world of ancient magic and spellbinding payouts in "Ways of the Sorceress" - the latest addition to our mobile casino game collection. With stunning graphics and enchanting sound effects, this game immerses you in a world of sorcery, where you will encounter magical creatures and ancient relics that hold the key to untold riches. ',
     features: ['Mystical world of ancient magic', 'Spellbinding payouts', 'Stunning graphics', 'Enchanting sound effects', 'Encounter magical creatures', 'Find ancient relics'],
-    link: "https://tailwindcss.com/docs/align-items#basic-usage"
+    link: "https://kingsizegames-production.up.railway.app/index.html"
   },
-  {
-    id: 3,
-    title: 'Game 3',
-    imageSrc: '',
-    bg: 'bg-gradient-to-br from-purple-200 via-purple-300 to-yellow-200',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Game 3',
+  //   imageSrc: '',
+  //   bg: 'bg-gradient-to-br from-purple-200 via-purple-300 to-yellow-200',
+  // },
 ];

@@ -5,13 +5,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#333399",
+        primary: "#282925",
         secondary: "#BDBDBD",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        poppins: ["Fredoka One", "cursive"],
       },
     },
     screens: {
