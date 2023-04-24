@@ -97,7 +97,7 @@ export const featuredGamesData = [
     bg: 'bg-gradient-to-br from-green-900 via-green-500 to-green-300',
     description: 'Enter a mystical world of ancient magic and spellbinding payouts in "Ways of the Sorceress" - the latest addition to our mobile casino game collection. With stunning graphics and enchanting sound effects, this game immerses you in a world of sorcery, where you will encounter magical creatures and ancient relics that hold the key to untold riches. ',
     features: ['Mystical world of ancient magic', 'Spellbinding payouts', 'Stunning graphics', 'Enchanting sound effects', 'Encounter magical creatures', 'Find ancient relics'],
-    link: "https://kingsizegames-production.up.railway.app/index.html"
+    link: "https://piqumgames2-production.up.railway.app/"
   },
   // {
   //   id: 3,
